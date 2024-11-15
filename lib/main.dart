@@ -41,7 +41,7 @@ class ProductListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('213218')), // Внесете го вашиот индекс тука
+      appBar: AppBar(title: const Text('213218')),
       body: ListView.builder(
         itemCount: products.length,
         itemBuilder: (context, index) {
